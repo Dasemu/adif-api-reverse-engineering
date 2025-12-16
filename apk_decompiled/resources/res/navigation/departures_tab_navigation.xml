@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/departures_tab_navigation"
+    app:startDestination="@+id/departuresFragment">
+    <fragment
+        android:label="DeparturesFragment"
+        android:name="com.adif.elcanomovil.uiDepartures.main.DeparturesFragment"
+        android:id="@+id/departuresFragment"/>
+</navigation>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="24dp"
+    android:layout_height="24dp">
+    <ImageView
+        android:id="@+id/wagon_src"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_composition_coach"/>
+    <ImageView
+        android:id="@+id/wagon_cafeteria"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_margin="0dp"
+        android:src="@drawable/ic_composition_cafeteria"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:id="@+id/wagon_number"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RadioGroup
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/train_selector_height">
+        <RadioButton
+            android:id="@+id/cercanias"
+            android:layout_width="@dimen/train_selector_width"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:text="@string/circulation_traintype_cercanias"
+            style="@style/TextTrainSelector"/>
+        <RadioButton
+            android:id="@+id/trains"
+            android:layout_width="@dimen/train_selector_width"
+            android:layout_height="match_parent"
+            android:text="@string/circulation_traintype_others"
+            android:contentDescription="@string/content_description_avldmd"
+            android:layout_marginStart="@dimen/small_padding"
+            style="@style/TextTrainSelector"/>
+        <RadioButton
+            android:id="@+id/others"
+            android:visibility="gone"
+            android:layout_width="@dimen/train_selector_width"
+            android:layout_height="match_parent"
+            android:text="@string/circulation_traintype_corporates"
+            android:contentDescription="@string/content_description_avldmd"
+            android:layout_marginStart="@dimen/small_padding"
+            style="@style/TextTrainSelector"/>
+    </RadioGroup>
+</merge>

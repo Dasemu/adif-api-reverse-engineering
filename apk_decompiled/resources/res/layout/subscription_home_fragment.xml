@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.adif.elcanomovil.commonViews.HeaderView
+        android:id="@+id/headerSubscriptionHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/shimmer_view_container"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/subscription_recyclerview"
+        app:layout_constraintTop_toBottomOf="@+id/headerSubscriptionHome">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/item_data_placeholder"/>
+            <include layout="@layout/item_data_placeholder"/>
+            <include layout="@layout/item_data_placeholder"/>
+            <include layout="@layout/item_data_placeholder"/>
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/subscription_recyclerview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerSubscriptionHome"/>
+    <com.adif.elcanomovil.commonViews.InfoView
+        android:id="@+id/empty_view"
+        android:visibility="gone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerSubscriptionHome"/>
+    <Button
+        android:textSize="@dimen/small_text_size"
+        android:textColor="@drawable/button_background"
+        android:gravity="center_vertical"
+        android:layout_gravity="end|bottom"
+        android:id="@+id/fab"
+        android:background="@color/darkLight"
+        android:paddingLeft="@dimen/new_issue_button_padding_start"
+        android:visibility="gone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/action_button_new_subscription"
+        android:drawablePadding="@dimen/item_issue_status_padding_vertical"
+        android:textAllCaps="true"
+        android:drawableStart="@drawable/ic_add"
+        android:paddingEnd="@dimen/new_issue_button_padding_end"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/stations_tab_navigation"
+    app:startDestination="@+id/stationsFragment">
+    <fragment
+        android:label="StationsFragment"
+        android:name="com.adif.elcanomovil.uiStations.main.StationsFragment"
+        android:id="@+id/stationsFragment"/>
+</navigation>

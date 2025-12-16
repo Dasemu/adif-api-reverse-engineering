@@ -1,0 +1,468 @@
+[
+  {
+    "commuterNetwork": "MADRID",
+    "lines": [
+      {
+        "line": "C1",
+        "colourRGB": "0763AC"
+      },
+      {
+        "line": "C2",
+        "colourRGB": "02A760"
+      },
+      {
+        "line": "C3",
+        "colourRGB": "B7459B"
+      },
+      {
+        "line": "C3a",
+        "colourRGB": "E5449C"
+      },
+      {
+        "line": "C4",
+        "colourRGB": "00328B"
+      },
+      {
+        "line": "C4a",
+        "colourRGB": "00328B"
+      },
+      {
+        "line": "C4b",
+        "colourRGB": "00328B"
+      },
+      {
+        "line": "C5",
+        "colourRGB": "FD5805"
+      },
+      {
+        "line": "C7",
+        "colourRGB": "EB4A44"
+      },
+      {
+        "line": "C8",
+        "colourRGB": "7C7C7C"
+      },
+      {
+        "line": "C8a",
+        "colourRGB": "7C7C7C"
+      },
+      {
+        "line": "C8b",
+        "colourRGB": "7C7C7C"
+      },
+      {
+        "line": "C9",
+        "colourRGB": "FFB300"
+      },
+      {
+        "line": "C10",
+        "colourRGB": "73BF01"
+      }
+    ]
+  },
+  {
+    "commuterNetwork": "BILBAO",
+    "lines": [
+      {
+        "line": "C1",
+        "colourRGB": "EB4A44"
+      },
+      {
+        "line": "C2",
+        "colourRGB": "02A760"
+      },
+      {
+        "line": "C3",
+        "colourRGB": "0763AC"
+      },
+      {
+        "line": "C4",
+        "colourRGB": "E93DAC"
+      }
+    ]
+  },
+  {
+    "commuterNetwork": "RAM_BILBAO",
+    "lines": [
+      {
+        "line": "C1",
+        "colourRGB": "EB4A44"
+      },
+      {
+        "line": "C2",
+        "colourRGB": "02A760"
+      },
+      {
+        "line": "C3",
+        "colourRGB": "0763AC"
+      },
+      {
+        "line": "C4",
+        "colourRGB": "E93DAC"
+      }
+    ]
+  },
+  {
+    "commuterNetwork": "CADIZ",
+    "lines": [
+      {
+        "line": "C1",
+        "colourRGB": "EB4A44"
+      },
+      {
+        "line": "C1a",
+        "colourRGB": "EB4A44"
+      },
+      {
+        "line": "T1",
+        "colourRGB": "78BE20"
+      }
+    ]
+  },
+  {
+    "commuterNetwork": "FEVE",
+    "lines": []
+  },
+  {
+    "commuterNetwork": "ASTURIAS",
+    "lines": [
+      {
+        "line": "C1",
+        "colourRGB": "EB4A44"
+      },
+      {
+        "line": "C2",
+        "colourRGB": "02A760"
+      },
+      {
+        "line": "C3",
+        "colourRGB": "0763AC"
+      },
+      {
+        "line": "C4",
+        "colourRGB": "E93DAC"
+      },
+      {
+        "line": "C5",
+        "colourRGB": "C3D600"
+      },
+      {
+        "line": "C5a",
+        "colourRGB": "C3D600"
+      },
+      {
+        "line": "C6",
+        "colourRGB": "A0C3E7"
+      },
+      {
+        "line": "C7",
+        "colourRGB": "FF7900"
+      },
+      {
+        "line": "C8",
+        "colourRGB": "F7C12B"
+      }
+    ]
+  },
+  {
+    "commuterNetwork": "RAM_ASTURIAS",
+    "lines": [
+      {
+        "line": "C1",
+        "colourRGB": "EB4A44"
+      },
+      {
+        "line": "C2",
+        "colourRGB": "02A760"
+      },
+      {
+        "line": "C3",
+        "colourRGB": "0763AC"
+      },
+      {
+        "line": "C4",
+        "colourRGB": "E93DAC"
+      },
+      {
+        "line": "C5",
+        "colourRGB": "C3D600"
+      },
+      {
+        "line": "C5a",
+        "colourRGB": "C3D600"
+      },
+      {
+        "line": "C6",
+        "colourRGB": "A0C3E7"
+      },
+      {
+        "line": "C7",
+        "colourRGB": "FF7900"
+      },
+      {
+        "line": "C8",
+        "colourRGB": "F7C12B"
+      }
+    ]
+  },
+  {
+    "commuterNetwork": "MALAGA",
+    "lines": [
+      {
+        "line": "C1",
+        "colourRGB": "0763AC"
+      },
+      {
+        "line": "C2",
+        "colourRGB": "02A760"
+      }
+    ]
+  },
+  {
+    "commuterNetwork": "MURCIA_ALICANTE",
+    "lines": [
+      {
+        "line": "C1",
+        "colourRGB": "0763AC"
+      },
+      {
+        "line": "C2",
+        "colourRGB": "02A760"
+      },
+      {
+        "line": "C3",
+        "colourRGB": "B7459B"
+      },
+      {
+        "line": "C4",
+        "colourRGB": "B68724"
+      }
+    ]
+  },
+  {
+    "commuterNetwork": "RAM_MURCIA",
+    "lines": [
+      {
+        "line": "C1",
+        "colourRGB": "0763AC"
+      },
+      {
+        "line": "C2",
+        "colourRGB": "02A760"
+      },
+      {
+        "line": "C3",
+        "colourRGB": "B7459B"
+      },
+      {
+        "line": "C4",
+        "colourRGB": "B68724"
+      }
+    ]
+  },
+  {
+    "commuterNetwork": "RODALIES_CATALUNYA",
+    "lines": [
+      {
+        "line": "R1",
+        "colourRGB": "7DBCEC"
+      },
+      {
+        "line": "R2",
+        "colourRGB": "26A741"
+      },
+      {
+        "line": "R2 Nord",
+        "colourRGB": "D0DE00"
+      },
+      {
+        "line": "R2 Sud",
+        "colourRGB": "136524"
+      },
+      {
+        "line": "R3",
+        "colourRGB": "EA412B"
+      },
+      {
+        "line": "R4",
+        "colourRGB": "F6A30D"
+      },
+      {
+        "line": "R7",
+        "colourRGB": "B57BBA"
+      },
+      {
+        "line": "R8",
+        "colourRGB": "88006A"
+      },
+      {
+        "line": "R11",
+        "colourRGB": "1267AF"
+      },
+      {
+        "line": "R12",
+        "colourRGB": "FEDF00"
+      },
+      {
+        "line": "R13",
+        "colourRGB": "E5449C"
+      },
+      {
+        "line": "R14",
+        "colourRGB": "6556AC"
+      },
+      {
+        "line": "R15",
+        "colourRGB": "93866E"
+      },
+      {
+        "line": "R16",
+        "colourRGB": "AF0D38"
+      },
+      {
+        "line": "R17",
+        "colourRGB": "E77204"
+      },
+      {
+        "line": "RG1",
+        "colourRGB": "2373D5"
+      },
+      {
+        "line": "RT1",
+        "colourRGB": "2DC3B4"
+      },
+      {
+        "line": "RT2",
+        "colourRGB": "E16AC7"
+      }
+    ]
+  },
+  {
+    "commuterNetwork": "SANTANDER",
+    "lines": [
+      {
+        "line": "C1",
+        "colourRGB": "EB4A44"
+      },
+      {
+        "line": "C2",
+        "colourRGB": "009645"
+      },
+      {
+        "line": "C3",
+        "colourRGB": "0160A9"
+      }
+    ]
+  },
+  {
+    "commuterNetwork": "SAN_SEBASTIAN",
+    "lines": [
+      {
+        "line": "C1",
+        "colourRGB": "EB4A44"
+      }
+    ]
+  },
+  {
+    "commuterNetwork": "SEVILLA",
+    "lines": [
+      {
+        "line": "C1",
+        "colourRGB": "0763AC"
+      },
+      {
+        "line": "C2",
+        "colourRGB": "02A760"
+      },
+      {
+        "line": "C3",
+        "colourRGB": "EB4A44"
+      },
+      {
+        "line": "C4",
+        "colourRGB": "B7459B"
+      },
+      {
+        "line": "C5",
+        "colourRGB": "00328B"
+      }
+    ]
+  },
+  {
+    "commuterNetwork": "VALENCIA",
+    "lines": [
+      {
+        "line": "C1",
+        "colourRGB": "0763AC"
+      },
+      {
+        "line": "C2",
+        "colourRGB": "FFB300"
+      },
+      {
+        "line": "C3",
+        "colourRGB": "B7459B"
+      },
+      {
+        "line": "C4",
+        "colourRGB": "EB4A44"
+      },
+      {
+        "line": "C5",
+        "colourRGB": "02A760"
+      },
+      {
+        "line": "C6",
+        "colourRGB": "00328B"
+      },
+      {
+        "line": "ER02",
+        "colourRGB": "A8621F"
+      }
+    ]
+  },
+  {
+    "commuterNetwork": "ZARAGOZA",
+    "lines": [
+      {
+        "line": "C1",
+        "colourRGB": "EB4A44"
+      }
+    ]
+  },
+  {
+    "commuterNetwork": "RAM_CANTABRIA",
+    "lines": [
+      {
+        "line": "C1",
+        "colourRGB": "EB4A44"
+      },
+      {
+        "line": "C2",
+        "colourRGB": "009645"
+      },
+      {
+        "line": "C3",
+        "colourRGB": "0160A9"
+      }
+    ]
+  },
+  {
+    "commuterNetwork": "RAM_FERROL_ORTIGUEIRA",
+    "lines": [
+      {
+        "line": "C1",
+        "colourRGB": "D7001E"
+      }
+    ]
+  },
+  {
+    "commuterNetwork": "RAM_LEON_CISTIERNA",
+    "lines": [
+      {
+        "line": "C1",
+        "colourRGB": "D7001E"
+      }
+    ]
+  }
+]

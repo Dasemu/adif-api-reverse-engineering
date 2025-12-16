@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="@dimen/widget_min_width_minimum"
+    android:minHeight="@dimen/widget_min_height_minimum"
+    android:updatePeriodMillis="900000"
+    android:initialLayout="@layout/widget_main"
+    android:configure="com.adif.elcanomovil.widget.DeparturesWidgetConfigureActivity"
+    android:previewImage="@drawable/widget_preview_image"
+    android:resizeMode="vertical|horizontal"
+    android:initialKeyguardLayout="@layout/widget_main"
+    android:widgetCategory="keyguard|home_screen"/>

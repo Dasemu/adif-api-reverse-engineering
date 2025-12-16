@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/default_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/icon_button_width"
+        android:layout_height="@dimen/icon_button_width"
+        android:layout_marginBottom="@dimen/default_padding"
+        android:src="@drawable/ic_result_error"
+        app:tint="@color/white"/>
+    <TextView
+        android:textSize="@dimen/default_text_size"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/empty_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/medium_padding"
+        android:text="@string/circulation_no_results_title"
+        style="@style/BaseTextAppearance"/>
+    <TextView
+        android:textSize="@dimen/small_text_size"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:id="@+id/empty_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/BaseTextAppearance"/>
+    <Button
+        android:id="@+id/action_button"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_vertical_margin"
+        android:text="@string/background_data_permission_button"
+        style="@style/MoreAdifButton"/>
+</LinearLayout>

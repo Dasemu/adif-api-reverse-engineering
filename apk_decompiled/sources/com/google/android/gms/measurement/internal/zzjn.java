@@ -1,0 +1,35 @@
+package com.google.android.gms.measurement.internal;
+
+import C.w;
+import android.os.RemoteException;
+import com.google.android.gms.common.internal.Preconditions;
+
+/* JADX INFO: Access modifiers changed from: package-private */
+/* loaded from: classes3.dex */
+public final class zzjn implements Runnable {
+    final /* synthetic */ zzq zza;
+    final /* synthetic */ zzjz zzb;
+
+    public zzjn(zzjz zzjzVar, zzq zzqVar) {
+        this.zzb = zzjzVar;
+        this.zza = zzqVar;
+    }
+
+    @Override // java.lang.Runnable
+    public final void run() {
+        zzej zzejVar;
+        zzjz zzjzVar = this.zzb;
+        zzejVar = zzjzVar.zzb;
+        if (zzejVar == null) {
+            w.v(zzjzVar.zzt, "Failed to send consent settings to service");
+            return;
+        }
+        try {
+            Preconditions.checkNotNull(this.zza);
+            zzejVar.zzp(this.zza);
+            this.zzb.zzQ();
+        } catch (RemoteException e4) {
+            this.zzb.zzt.zzaA().zzd().zzb("Failed to send consent settings to the service", e4);
+        }
+    }
+}

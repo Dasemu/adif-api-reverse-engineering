@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_tab_navigation"
+    app:startDestination="@+id/homeFragment">
+    <fragment
+        android:label="HomeFragment"
+        android:name="com.adif.elcanomovil.uiHome.HomeFragment"
+        android:id="@+id/homeFragment">
+        <argument
+            android:name="focusFavourites"
+            android:defaultValue="false"
+            app:argType="boolean"/>
+        <deepLink
+            android:id="@+id/favouritesLink"
+            app:uri="adifmovil://app/favourites?focusFavourites={focusFavourites}"/>
+    </fragment>
+</navigation>

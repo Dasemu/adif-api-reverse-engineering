@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_home"
+        android:id="@+id/home_tab_navigation"
+        android:title="@string/menu_home"/>
+    <item
+        android:icon="@drawable/ic_service_opening_hours"
+        android:id="@+id/departures_tab_navigation"
+        android:title="@string/menu_departures"/>
+    <item
+        android:icon="@drawable/ic_stations"
+        android:id="@+id/stations_tab_navigation"
+        android:title="@string/menu_stations"/>
+    <item
+        android:icon="@drawable/ic_more_adif"
+        android:id="@+id/more_adif_tab_navigation"
+        android:title="@string/menu_more_adif"/>
+</menu>
